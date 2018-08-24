@@ -1,0 +1,30 @@
+.navbar {
+    width: 60rem;
+    margin: 3rem auto;
+    background-color: white;
+    background-image: none;
+    border: 0.7px black solid;
+}
+
+.navbar-header {
+    padding-top: 6px;
+    padding-right: 10px;
+}
+
+.brand {
+    font-family: "American Typewriter", sans-serif;
+    font-size: 24px;
+    color: black;
+
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: black;
+}
+
+@media only screen and (max-device-width : 640px) {
+    /* Styles */
+    .navbar {
+        width: 50rem;
+    }
+}
