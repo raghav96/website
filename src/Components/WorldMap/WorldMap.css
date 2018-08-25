@@ -2,7 +2,8 @@ svg {
     background-color: #fff;
 }
 
-.stroke {
+
+#sphere.stroke {
     fill: #5554fc;
     stroke: #000;
     stroke-width: 3px;

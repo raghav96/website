@@ -1,10 +1,6 @@
 import React, { Component } from 'react'
-import { scaleLinear, scaleSequential } from 'd3-scale';
 import { range } from 'd3-array'
-import { select } from 'd3-selection'
 import { randomNormal } from 'd3-random';
-import { axisBottom, axisLeft } from 'd3-axis';
-import { interpolateLab } from 'd3-interpolate';
 import HexbinPlot from 'react-d3-hexbin';
 import './HexChart.css';
 

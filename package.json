@@ -1,5 +1,6 @@
 {
   "name": "raghavism",
+  "homepage": "http://raghav96.github.io/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,16 +16,20 @@
     "d3-transition": "1.1.1",
     "react": "^16.4.2",
     "react-d3-hexbin": "^1.0.11",
+    "react-instagram-embed": "^1.4.0",
     "react-scripts": "1.1.5"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy" : "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "d3-hexbin": "^0.2.2",
+    "gh-pages": "^1.2.0",
     "react-bootstrap": "^0.32.3",
     "react-dom": "^16.4.2",
     "react-router": "^4.3.1",

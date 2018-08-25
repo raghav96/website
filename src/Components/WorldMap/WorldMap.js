@@ -1,12 +1,15 @@
 import React, { Component } from 'react'
 import worlddata from './world';
 import "./WorldMap.css"
-import { geoMercator, geoAlbers, geoOrthographic, geoPath, geoGraticule} from 'd3-geo'
+import { geoOrthographic, geoPath, geoGraticule} from 'd3-geo'
 import {select } from 'd3-selection';
 
 class WorldMap extends Component {
     constructor(props){
         super(props);
+        this.state = {
+           rotate : -80
+        };
         this.generateMap = this.generateMap.bind(this);
 
     }
@@ -19,7 +22,7 @@ class WorldMap extends Component {
 
     generateMap(){
         const node = this.node;
-        const projection = geoOrthographic().scale(140).rotate([100,0,0]).translate([150, 150]);
+        const projection = geoOrthographic().scale(140).rotate([this.state.rotate,0,0]).translate([150, 150]);
         const path = geoPath().projection(projection);
 
         const graticule = geoGraticule();

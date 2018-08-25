@@ -1,0 +1,18 @@
+.social {
+    align-self: center;
+    margin: 1rem 6rem;
+}
+
+@media only screen and (max-device-width : 640px) {
+    /* Styles */
+    .social {
+        margin: 1rem 0.8rem;
+    }
+}
+
+@media only screen and (max-device-width: 768px) {
+    /* Styles */
+    .social {
+        margin: 1rem 2rem;
+    }
+}

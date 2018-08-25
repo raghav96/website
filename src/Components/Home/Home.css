@@ -27,7 +27,7 @@ article {
     padding: 0 1rem;
 }
 article p {
-    font-family: Georgia, sans-serif;
+    font-family: "Georgia", sans-serif;
     font-size: 2rem;
     line-height: 1.8;
 }
@@ -81,7 +81,7 @@ section {
     /* Styles */
 }
 
-img {
+.home-images {
     width: 35rem;
     height: 25rem;
     border: 0.7px black solid;
@@ -95,4 +95,15 @@ img {
 
 .startLetter {
     font-size: 24px;
+}
+
+.photo-image {
+    height: 25rem;
+    width : 25rem;
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-family: "Georgia", sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.8;
 }
