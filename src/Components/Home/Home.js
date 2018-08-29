@@ -11,9 +11,6 @@ import Footer from "../Footer/Footer";
 class Home extends Component {
     constructor(props){
         super(props);
-        this.state = {
-            isMobile : window.innerWidth < 640
-        };
     }
 
 
@@ -23,9 +20,6 @@ class Home extends Component {
         for(let i = 0; i <= 360; i++) {
             rots.push(i);
         }
-        const { isMobile } = this.state;
-        const width = isMobile ? "500px" : (parseInt(window.innerWidth, 10) + "px");
-        console.log(width);
 
         return (<div className="mainBody">
             <HexChart data={values} size={[500,500]} />

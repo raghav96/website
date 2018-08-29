@@ -19,15 +19,15 @@ class MenuBar extends Component {
                                 About
                             </NavItem>
                             <NavDropdown eventKey={2} title="Work" id="basic-nav-dropdown">
-                                <MenuItem eventKey={2.1} ><SocialIcon url="http://www.github.com/raghav96">GitHub</SocialIcon></MenuItem>
+                                <MenuItem eventKey={2.1} ><SocialIcon href="http://medium.com/raghav96_77243" url="http://github.com/raghav96">GitHub</SocialIcon></MenuItem>
                                 <MenuItem divider />
-                                <MenuItem eventKey={2.2} ><SocialIcon url="http://www.medium.com/raghav96_77243">Medium</SocialIcon></MenuItem>
+                                <MenuItem eventKey={2.2} ><SocialIcon href="http://medium.com/raghav96_77243" url="http://medium.com/raghav96_77243">Medium</SocialIcon></MenuItem>
 
                             </NavDropdown>
                             <NavDropdown eventKey={3} title="Contact" id="basic-nav-dropdown">
                                 <MenuItem eventKey={3.1}><SocialIcon url="mailto:raghav96@gmail.com">Email</SocialIcon></MenuItem>
                                 <MenuItem divider />
-                                <MenuItem eventKey={3.2}><SocialIcon url="http://www.linkedin.com/in/raghav96">LinkedIn</SocialIcon></MenuItem>
+                                <MenuItem eventKey={3.2}><SocialIcon href="http://linkedin.com/in/raghav96" url="http://linkedin.com/in/raghav96">LinkedIn</SocialIcon></MenuItem>
                                 <MenuItem divider />
                                 <MenuItem eventKey={3.3} onClick={() => {alert("(858) 952-3854")}}>Phone</MenuItem>
                             </NavDropdown>

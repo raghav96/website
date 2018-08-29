@@ -9,7 +9,7 @@ class HexChart extends Component {
     render() {
         const randomX = randomNormal(0, 1);
         const randomY = randomNormal(0, 1);
-        const data = range(50000).map(() => [randomX(), randomY()] );
+        const data = range(10000).map(() => [randomX(), randomY()] );
 
         return <HexbinPlot points={ data }
                            width={ this.props.size[0] }
