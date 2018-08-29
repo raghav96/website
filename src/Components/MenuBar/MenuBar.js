@@ -15,21 +15,21 @@ class MenuBar extends Component {
 
                     <Navbar.Collapse>
                         <Nav>
-                            <NavItem eventKey={1} href="#">
+                            <NavItem eventKey={1} href="/">
                                 About
                             </NavItem>
                             <NavDropdown eventKey={2} title="Work" id="basic-nav-dropdown">
-                                <MenuItem eventKey={2.1} ><SocialIcon href="http://medium.com/raghav96_77243" url="http://github.com/raghav96">GitHub</SocialIcon></MenuItem>
+                                <MenuItem eventKey={2.1} href="http://github.com/raghav96"><SocialIcon  url="http://github.com/raghav96"/><span className="menu-link">GitHub</span></MenuItem>
                                 <MenuItem divider />
-                                <MenuItem eventKey={2.2} ><SocialIcon href="http://medium.com/raghav96_77243" url="http://medium.com/raghav96_77243">Medium</SocialIcon></MenuItem>
+                                <MenuItem eventKey={2.2} href="http://medium.com/raghav96_77243" ><SocialIcon url="http://medium.com/raghav96_77243"/><span className="menu-link">Medium</span></MenuItem>
 
                             </NavDropdown>
                             <NavDropdown eventKey={3} title="Contact" id="basic-nav-dropdown">
-                                <MenuItem eventKey={3.1}><SocialIcon url="mailto:raghav96@gmail.com">Email</SocialIcon></MenuItem>
+                                <MenuItem eventKey={3.1} href="mailto:raghav96@gmail.com" ><SocialIcon url="mailto:raghav96@gmail.com"/><span className="menu-link">Email</span></MenuItem>
                                 <MenuItem divider />
-                                <MenuItem eventKey={3.2}><SocialIcon href="http://linkedin.com/in/raghav96" url="http://linkedin.com/in/raghav96">LinkedIn</SocialIcon></MenuItem>
+                                <MenuItem eventKey={3.2} href="http://linkedin.com/in/raghav96" ><SocialIcon url="http://linkedin.com/in/raghav96"/><span className="menu-link">LinkedIn</span></MenuItem>
                                 <MenuItem divider />
-                                <MenuItem eventKey={3.3} onClick={() => {alert("(858) 952-3854")}}>Phone</MenuItem>
+                                <MenuItem eventKey={3.3} onClick={() => {alert("(858) 952-3854")}}><SocialIcon url=""/><span className="menu-link">Phone</span></MenuItem>
                             </NavDropdown>
                             <NavItem eventKey={4} href="http://docs.google.com/document/d/1jQrwHeQNcw2yx1kJArXLXX5IWyFudi9khT4yzzi2fUw/edit?usp=sharing">
                                 Hire
