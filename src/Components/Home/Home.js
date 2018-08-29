@@ -28,7 +28,7 @@ class Home extends Component {
         console.log(width);
 
         return (<div className="mainBody">
-            <HexChart data={values} size={[width,400]} />
+            <HexChart data={values} size={[500,500]} />
             <Footer/>
             <section>
 
