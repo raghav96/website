@@ -36,7 +36,7 @@ class Home extends Component {
                         <span className="startLetter"><strong>W</strong></span>elcome! My name is Raghav and this is my personal website. I built this website by myself with some helpful software engineering.
                     </p>
 
-                    <p><span className="startLetter"><strong>I</strong></span> am currently working at Medspace, an early-stage healthcare start-up, as a Systems Engineer. At Medspace, I build React web interfaces like this one. I am front-end web developer and data scientist currently residing in San Diego. </p>
+                    <p><span className="startLetter"><strong>I</strong></span> am a front-end web developer and data scientist currently residing in San Diego. I build React websites like this and with <a href="http://raghavism.com">Bootstrap</a> too</p>
 
                 </article>
             </section>
